@@ -7,4 +7,4 @@ Utilisant les méthodes natives de PrestaShop, simple d'installation, fluide ce 
 
 Ce module très simple de manipulation est totalement Open Source.
 
-http://Coonax.fr
+Coonax.fr
