@@ -1,0 +1,234 @@
+
+.leftColumn {
+    color: #FFFFFF;
+    background-color: #FF0022;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.leftColumn-button {
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    
+}
+
+.leftColumn-button:hover {
+    background-color: white;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    
+}
+
+.Module {
+    background-color: #d44545;
+    height: 800px;
+    width: auto;
+    border-radius: 43px 43px 40px 40px;
+}
+
+.titleHeadModuleGreen {
+    color: #c1fc1a;
+    margin-left: 30px;
+}
+.titleHeadModuleRed {
+    color: #f4523e;
+    margin-left: 20px;
+}
+.titleHeadModuleBlack {
+    color: #394034;
+    margin-left: 30px;
+}
+
+.titleHeadModulePink {
+    color: #e21b9c;
+    margin-left: 5px;
+}
+
+
+#bauble-container
+{
+  list-style: none; /* Remove bullets */
+  width: 568px;  
+  margin: 0px auto; /* Center it */
+  padding: 0; /* In production, this may not be needed if you reset your styles in your global stylesheet:
+                 http://sixrevisions.com/css/css-tips/css-tip-1-resetting-your-styles-with-css-reset/ */
+}
+
+#bauble-container li
+{
+  margin: 0 20px; /* let's add some space */
+  float: left; /* place them in line */
+}
+
+/* This is the part where the Christmas bauble string is added */
+#bauble-container li:before
+{
+	content: "";
+	background: #dadada; /* Fallback */	
+	background: -moz-linear-gradient(bottom, #9c9c9c, rgba(255,255,255,0) );
+	background: -webkit-gradient(linear, left bottom, right top, from(#9c9c9c), color-stop(100%, rgba(255,255,255,0))); 
+	height: 50px;
+	width: 2px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Alernatively rotate them */
+#bauble-container li:nth-child(odd)
+{
+	-moz-transform: rotate(-5deg); /* Firefox */
+	-webkit-transform: rotate(-5deg); /* Chrome and Safari */
+	-o-transform: rotate(-5deg); /* Opera */
+	-ms-transform: rotate(-5deg); /* Surprise! IE9 with its own prefix */
+}
+
+#bauble-container li:nth-child(even)
+{
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+}
+
+/* Style the bauble */
+.bauble
+{
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	
+	-moz-box-shadow: 0 0 5px #777777;
+	box-shadow: 0 0 5px #777777;
+	-webkit-box-shadow: 0 0 5px #777777;
+	
+	border: 1px solid rgba(0,0,0,0.3);
+	position: relative;
+	height: 100px;
+	width: 100px;  
+}
+
+/* Style the bauble head */
+.bauble:before
+{
+	content: "";
+
+	background: #fff; /* Fallback */	
+	background: -moz-linear-gradient(left, #fff, #9c9c9c, #fff, #9c9c9c );
+	background: -webkit-gradient(linear, left center, right center, from(#fff), color-stop(25%, #9c9c9c), color-stop(50%, #fff), color-stop(75%, #9c9c9c)); 
+	
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 -1px 0 rgba(255,255,255,0.3) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 -1px 0 rgba(255,255,255,0.3) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 -1px 0 rgba(255,255,255,0.3) inset;
+	
+	border: 1px solid #dadada ;
+	height: 10px;
+	width: 20px;		
+	position: absolute;
+	left: 50%;
+	top: -12px;
+	margin-left: -10px;
+}
+
+/* Add bauble light reflection */	
+.bauble:after
+{
+	content: "";
+	
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	
+	background: #fff; /* Fallback */	
+	background: -moz-linear-gradient(bottom, #fff, rgba(255,255,255,0.1) );
+	background: -webkit-gradient(linear, left bottom, right top, from(#fff), color-stop(100%, rgba(255,255,255,0.1))); 
+	
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -40px;
+	opacity: 0.15;
+	height: 80px;
+	width: 80px;
+}
+
+/* Colorize them */
+.red-bauble
+{
+	background: #c8171f; 
+	background: -moz-radial-gradient(center 45deg,circle cover, #f9d0be, #c8171f);
+	background: -webkit-gradient(radial, 40% 40%, 0, 40% 40%, 50, from(#f9d0be), to(#c8171f)); 
+}
+
+.blue-bauble
+{               
+	background: #00a1ee; /* Fallback */	
+	background: -moz-radial-gradient(center 45deg,circle cover, #cde6f9, #00a1ee);
+	background: -webkit-gradient(radial, 40% 40%, 0, 40% 40%, 50, from(#cde6f9), to(#00a1ee)); 
+}
+
+.yellow-bauble
+{
+	background: #fcb83d; /* Fallback */	
+	background: -moz-radial-gradient(center 45deg,circle cover, #fcf3a6, #fcb83d);
+	background: -webkit-gradient(radial, 40% 40%, 0, 40% 40%, 50, from(#fcf3a6), to(#fcb83d)); 
+}
+
+.green-bauble
+{
+	background: #4d8d00; /* Fallback */
+	background: -moz-radial-gradient(center 45deg,circle cover, #d1e5b2, #4d8d00);
+	background: -webkit-gradient(radial, 40% 40%, 0, 40% 40%, 50, from(#d1e5b2), to(#4d8d00)); 
+}
+
+
+
+
+
+.headModule {
+    background-color: #bcbcbc;
+    width: auto;
+    height: 180px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.menu {
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    text-align: left;
+    margin-left: 920px;
+    margin-right: 20px;
+    background-color: #838383;
+    width: 230;
+    height: 141;
+    border: 1px solid black;
+    
+}
+
+
+.lienMenu {
+    color: white;
+    font-size: 22px;
+
+    
+}
+
+.lienMenu:hover {
+    color:#d44545;
+    font-size: 22px;
+}
