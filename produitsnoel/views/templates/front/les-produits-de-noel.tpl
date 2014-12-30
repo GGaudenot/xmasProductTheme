@@ -18,8 +18,8 @@
         <div class="menu">
         <ul>
             <li><a class="lienMenu" href="#">Bottes</a></li>
-            <li><a class="lienMenu" href="#">Bonnets</a></li>
-            <li><a class="lienMenu" href="#">Echarpes</a></li>
+            <li><a class="lienMenu" href="#">Basket</a></li>
+            <li><a class="lienMenu" href="#">Chaussures de villes</a></li>
             <li><a class="lienMenu" href="#">Autres</a></li>
         </ul>
         </div>

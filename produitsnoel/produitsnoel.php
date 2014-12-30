@@ -12,15 +12,15 @@ class ProduitsNoel extends Module {
 		// Indique la version du module.
 		$this->version = 0.1;
 		// Indique l'auteur du module.
-		$this->author = 'WebCD';
+		$this->author = 'Coonax';
 		// Indique le nom d'affichage du module.
-		$this->displayName = $this->l('Produits de Noel');
+		$this->displayName = $this->l('xmasProductTheme');
 		// Indique la description du produit.
-		$this->description = $this->l('Module affichant tous les produits spécial noël avec un design unique.');
+		$this->description = $this->l('Module affichant tous les produits spécial noël avec un design unique. Création Coonax.fr');
 		
 		parent :: __construct();
 		
-		$this->confirmUninstall = $this->l('Etes vous sur de vouloir désinstaller le module Produits de Noel ?');
+		$this->confirmUninstall = $this->l('Etes vous sur de vouloir désinstaller le module xmasProductTheme ?');
 		
 	}
 	
@@ -30,7 +30,7 @@ class ProduitsNoel extends Module {
 	// Installation du module.
 		return parent :: install()
 			// Execution de la méthode lier à la base de données.
-			 && $this->createDB()
+			// && $this->createDB()
 			// Création d'un Hook sur le DisplayLeftColumn
 			&& $this->registerHook('leftColumn')
 			// Création d'un Hook sur le Dispymn
@@ -65,33 +65,33 @@ class ProduitsNoel extends Module {
 	}
 	
 	// Méthode de la table du module.
-	private function createDB() {
+	// private function createDB() {
 		
-		//Prefix de la base de données.
-		$prefix = _DB_PREFIX_;
-		//Moteur de la base de données.
-		$engine = _MYSQL_ENGINE_;
+	// 	//Prefix de la base de données.
+	// 	$prefix = _DB_PREFIX_;
+	// 	//Moteur de la base de données.
+	// 	$engine = _MYSQL_ENGINE_;
 		
-		$statements = array();
+	// 	$statements = array();
         
-		//Suppression de la table dans le cas ou elle existe.
-		$statements[] = "DROP TABLE IF EXISTS `${prefix}noel`";
+	// 	//Suppression de la table dans le cas ou elle existe.
+	// 	$statements[] = "DROP TABLE IF EXISTS `${prefix}noel`";
 
-        //Création de notre table
-        $statements[1] = "CREATE TABLE `${prefix}noel` ("
-						. '`id` int(10)  NOT NULL AUTO_INCREMENT,'
-						. '`titre` VARCHAR(45),'						
-						. 'PRIMARY KEY (`id`)'
-						. ")ENGINE=$engine ";
+ //        //Création de notre table
+ //        $statements[1] = "CREATE TABLE `${prefix}noel` ("
+	// 					. '`id` int(10)  NOT NULL AUTO_INCREMENT,'
+	// 					. '`titre` VARCHAR(45),'						
+	// 					. 'PRIMARY KEY (`id`)'
+	// 					. ")ENGINE=$engine ";
 
-		foreach ($statements as $statement) {
-			if (!Db :: getInstance()->Execute($statement)) {
-				return false;
-			}
-		}
+	// 	foreach ($statements as $statement) {
+	// 		if (!Db :: getInstance()->Execute($statement)) {
+	// 			return false;
+	// 		}
+	// 	}
 		
-		return true;				
-	}
+	// 	return true;				
+	// }
 	
     //Associe notre module au Hook de la colonne de gauche.
 	public function hookDisplayLeftColumn($params) {
