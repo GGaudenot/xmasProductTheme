@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>produitsnoel</name>
-	<displayName><![CDATA[Produits de Noel]]></displayName>
+	<displayName><![CDATA[xmasProductTheme]]></displayName>
 	<version><![CDATA[0.1]]></version>
-	<description><![CDATA[Module affichant tous les produits sp&eacute;cial no&euml;l avec un design unique.]]></description>
-	<author><![CDATA[WebCD]]></author>
+	<description><![CDATA[Module affichant tous les produits sp&eacute;cial no&euml;l avec un design unique. Cr&eacute;ation Coonax.fr]]></description>
+	<author><![CDATA[Coonax]]></author>
 	<tab><![CDATA[others]]></tab>
-	<confirmUninstall><![CDATA[Etes vous sur de vouloir désinstaller le module Produits de Noel ?]]></confirmUninstall>
+	<confirmUninstall><![CDATA[Etes vous sur de vouloir désinstaller le module xmasProductTheme ?]]></confirmUninstall>
 	<is_configurable>0</is_configurable>
 	<need_instance>1</need_instance>
 	<limited_countries></limited_countries>
