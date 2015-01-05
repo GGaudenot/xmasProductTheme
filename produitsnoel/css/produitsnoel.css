@@ -1,7 +1,6 @@
 
 .leftColumn {
     color: #FFFFFF;
-    background-color: #FF0022;
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 10px;
@@ -32,7 +31,7 @@
 }
 
 .Module {
-    background-color: #d44545;
+    background-color: #C0C0C0;
     height: 800px;
     margin-bottom: -50px;
     width: auto;
@@ -60,10 +59,16 @@
     background-color: #bcbcbc;
     width: auto;
     height: 180px;
+    padding-bottom: 10px;
+}
+
+.bodyModule {
+    background-color: #FFFFFF;
+    height: 602px;
 }
 
 .menu {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -80,11 +85,23 @@
 .lienMenu {
     color: white;
     font-size: 22px;
-
-    
 }
 
 .lienMenu:hover {
     color:#d44545;
     font-size: 22px;
+}
+
+h1.titre {
+	font-size: 200%;
+	color : white;
+	font-weight: bold; 
+	font-family: Fixed, monospace ;
+}
+
+h1.sous-titre {
+	font-size: 150%;
+	color: black;
+	font-weight: bold;
+	font-family: Fixed, monospace;
 }
