@@ -107,7 +107,6 @@ class ProduitsNoel extends Module {
 	public function hookDisplayHeader() {
 		$this->context->controller->addCSS($this->_path.'css/produitsnoel.css','all');
 	}
-	
 }
 ?>
 
