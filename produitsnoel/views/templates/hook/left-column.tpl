@@ -1,3 +1,8 @@
+<!-- Fichier TPL du Hook du module
+     Création : Coonax 
+     Github : https://github.com/Coonax 
+     Site Internet : http://www.Coonax.fr -->
+
 <div class="block informations_block_left">
 	<div id="informations_block_left">
          <div class="leftColumn">
