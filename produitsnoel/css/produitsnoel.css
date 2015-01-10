@@ -40,14 +40,14 @@
 }
 
 .headModule {
-    background-color: #bcbcbc;
+    background-color: #FFFFFF;
     width: auto;
     height: auto;
     padding-bottom: 10px;
 }
 
 .menu {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -59,28 +59,59 @@
 
 .sousMenu{
     padding-bottom: 5px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: #d44545;
+}
+
+.footer{
+    padding-bottom: 5px;
     padding-top: 5px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-    background-color: #FF3232;
+    background-color: #d44545;
+}
+
+.lienFooter{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: Fixed, monospace ;
+}
+
+.lienFooter:hover{
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
 }
 
 .lienMenu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: white;
     font-size: 22px;
+    font-family: Fixed, monospace ;
 }
 
 .lienMenu:hover {
-    color:#d44545;
+    color: black;
     font-size: 22px;
+    text-decoration: underline;
 }
 
 .bodyModule {
 	margin-top: -30px;
     padding-bottom: 30px;
 	max-height: auto;
-    background-color: #FFF33F;
+    background-color: #FFFFFF;
 }
 
 h1.titre {
@@ -91,8 +122,29 @@ h1.titre {
 }
 
 h1.sous-titre {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
 	font-size: 150%;
 	color: black;
 	font-weight: bold;
 	font-family: Fixed, monospace;
 }
+
+p.content {
+    padding-left: 15px;
+    padding-right: 15px;
+    color : black;
+}
+
+a.lienCoonax{
+    color : black;
+    font-weight: bold;
+}
+
+a.lienCoonax:hover{
+    color : white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
