@@ -3,6 +3,8 @@
 /* Github : https://github.com/Coonax */
 /* Site Internet : http://www.Coonax.fr */
 
+
+ /* Hook */
 .leftColumn {
     color: #FFFFFF;
     padding-top: 10px;
@@ -32,6 +34,7 @@
     font-size: 16px;
 }
 
+/* Module */
 .Module {
     background-color: #C0C0C0;
     margin-bottom: -50px;
@@ -64,31 +67,6 @@
     padding-right: 30px;
     text-align: center;
     background-color: #d44545;
-}
-
-.footer{
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-    background-color: #d44545;
-}
-
-.lienFooter{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: black;
-    font-size: 15px;
-    font-family: Fixed, monospace ;
-}
-
-.lienFooter:hover{
-    color: white;
-    font-size: 15px;
-    text-decoration: underline;
 }
 
 .lienMenu {
@@ -131,10 +109,99 @@ h1.sous-titre {
 	font-family: Fixed, monospace;
 }
 
+/*Corp du module */
 p.content {
     padding-left: 15px;
     padding-right: 15px;
     color : black;
+}
+
+.cadreProduit{
+    border: 1px solid #d44545;
+
+}
+
+.nomProduit{
+    color: black;
+    font-family: Tahoma;
+    font-size: 22px;
+
+}
+
+.nomProduit:hover{
+    color :#d44545;
+    font-family: Tahoma;
+    font-size: 22px;
+}
+
+.prixProduit {
+    font-size: 16px;
+    color: black;
+    display: inline;
+
+
+}
+
+.infoProduit {
+    color: #d44545;
+    font-size: 14px;
+    font-family: Fixed, monospace ;
+}
+
+
+.lienAchat {
+    font-size:16px;
+    color: white; 
+    background-color: #d44545;
+    padding-top:10px; 
+    padding-bottom:10px;
+    padding-left:50px;
+    padding-right:50px; 
+    text-align:center;
+    font-family: Fixed, monospace ;
+
+}
+
+
+.lienAchat:hover {
+    font-size:16px;
+    color: #d44545; 
+    background-color: white;
+    border: 1px solid #d44545;
+    padding-top:10px; 
+    padding-bottom:10px;
+    padding-left:50px;
+    padding-right:50px; 
+    text-align:center;
+    font-family: Fixed, monospace ;
+}
+
+
+/* Footer */
+
+.footer{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: #d44545;
+}
+
+.lienFooter{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: Fixed, monospace ;
+}
+
+.lienFooter:hover{
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
 }
 
 a.lienCoonax{
