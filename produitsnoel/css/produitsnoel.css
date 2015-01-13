@@ -57,7 +57,8 @@
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: #d44545;
+    /*background-color: #d44545;*/
+    background-color: #8B0000;
 }
 
 .sousMenu{
@@ -80,9 +81,8 @@
 }
 
 .lienMenu:hover {
-    color: black;
+    color: #8B0000;
     font-size: 22px;
-    text-decoration: underline;
 }
 
 .bodyModule {
@@ -118,7 +118,6 @@ p.content {
 
 .cadreProduit{
     border: 1px solid #d44545;
-
 }
 
 .nomProduit{

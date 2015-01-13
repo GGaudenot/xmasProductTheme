@@ -1,4 +1,4 @@
-<!-- Fichier TPL du module - Page d'accueil
+<!-- Fichier TPL du module - Catégorie Autres
      Création : Coonax 
      Github : https://github.com/Coonax 
      Site Internet : http://www.Coonax.fr -->
@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="bodyModule">
-         <h1 class="sous-titre">Tous nos produits de Noël</h1>
+         <h1 class="sous-titre">Nos autres produits de Noël</h1>
          <p class="content">Durant les fêtes de Noël, EasyChaussures vous proposes de découvrir les produits que nous vous proposons à cette occasion. Sans plus attendre consulter l'ensemble de nos offres parmis les différentes catégories: bottes, talons, chaussures et tous les autres.</p>
 
 
@@ -75,7 +75,7 @@
     <div class="footer">
         <ul>
             <li><a class="lienFooter" href="#">Informations</a>
-            <a class="lienFooter" href="http://coonax.fr">Support</a></li>
+            <a class="lienFooter" href="#">Support</a></li>
         </ul>
         <p class="content">xmasProductTheme par <a class="lienCoonax" href="http://coonax.fr">Coonax</a></p>
     </div>
