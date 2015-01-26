@@ -57,8 +57,7 @@
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
-    /*background-color: #d44545;*/
-    background-color: #8B0000;
+    background-color: #2f2f2f;
 }
 
 .sousMenu{
@@ -67,7 +66,7 @@
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-    background-color: #d44545;
+    background-color: #b90000;
 }
 
 .lienMenu {
@@ -81,7 +80,7 @@
 }
 
 .lienMenu:hover {
-    color: #8B0000;
+    color: #2f2f2f;
     font-size: 22px;
 }
 
@@ -184,7 +183,7 @@ p.content {
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-    background-color: #d44545;
+    background-color: #b90000;
 }
 
 .lienFooter{
@@ -192,7 +191,7 @@ p.content {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    color: black;
+    color: #2f2f2f;
     font-size: 15px;
     font-family: Fixed, monospace ;
 }
@@ -204,7 +203,7 @@ p.content {
 }
 
 a.lienCoonax{
-    color : black;
+    color : #2f2f2f;
     font-weight: bold;
 }
 
